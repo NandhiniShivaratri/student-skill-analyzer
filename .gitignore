@@ -1,0 +1,26 @@
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# Maven
+target/
+
+# Java
+*.class
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Local secrets
+application-local.propertiessrc/main/resources/application.properties
+src/main/resources/application.properties

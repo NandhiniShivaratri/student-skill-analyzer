@@ -1,0 +1,1 @@
+package com.student.studentanalyzer.repository; import com.student.studentanalyzer.entity.RoleSkillRequirement; import org.springframework.data.jpa.repository.JpaRepository; import java.util.List; public interface RoleSkillRequirementRepository extends JpaRepository<RoleSkillRequirement, Long> { List<RoleSkillRequirement> findByRoleNameIgnoreCase(String roleName); }
