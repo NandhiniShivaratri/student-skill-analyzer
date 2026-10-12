@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "http://localhost:8080",
+  baseURL: "https://student-skill-analyzer-3-7ya9.onrender.com/api",
 });
 
 export default api;
